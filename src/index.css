@@ -1,6 +1,6 @@
-b* {
+* {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  
 }
 
 :root {
@@ -18,7 +18,9 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-image: url(./components/assets/img/fundo.jpg);
+  background-repeat: repeat-y;
+  background-size: 100%;
 }
 
 a {

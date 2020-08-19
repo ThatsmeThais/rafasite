@@ -4,9 +4,6 @@ import Footer from '../Footer';
 import styled, {css} from 'styled-components';
 
 const Main = styled.main`
-    background-image: url(${img});
-    background-repeat: repeat-y;
-    background-size: 100%;
     color: var(--white);
     flex: 1;
     ${({paddingAll}) => css`
@@ -26,3 +23,5 @@ function PagesDefault({ children, paddingAll}){
         </>
     );
 }
+
+export default PagesDefault;

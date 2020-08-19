@@ -1,29 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
 import './Menu.css';
-import Button from '../Button/index'
 
 function Menu(){
     return(
         <nav className="Menu">
-            <Link to="/">
-                <h1>Rafaela Coriliano</h1>
+            <Link to="/" className="logo">
+                Rafaela Coriliano
             </Link>
-            <Link to="/text">
-                <h2>Textos</h2>
+            <Link to="/text" className="nav">
+                Textos
             </Link>
-            <Link to="/photos">
-                <h2>Fotgrafias</h2>
+            <Link to="/photos" className="nav">
+                Fotografias
             </Link>
-            <Link to="/book">
-                <h2>Livro</h2>
+            <Link to="/book" className="nav">
+                Livro
             </Link>
-            <Link to="/about">
-                <h2>Sobre mim</h2>
+            <Link to="/about" className="nav">
+                Sobre mim
             </Link>
-            <Button as={Link} className="ButtonLink" to="/">
-                o
-            </Button>
+            <Link to="/" className="nav">
+                <svg class="bi bi-chat-square-dots-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2V2zm5 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+            </Link>
         </nav>
     );
 }
