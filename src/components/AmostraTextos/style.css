@@ -1,0 +1,49 @@
+
+.amostraTextos{
+	padding:40px;
+	background-color: #7c7a7a;
+	color:black;
+}
+.card{
+	height:350px;
+    font-family:Roboto;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+
+    @media (max-width: 800px) {
+        
+    }
+}
+.card-subtitle{
+    padding-left:15px;
+	color:#C0C0C0;
+}
+.card-title{
+    padding-top:15px;
+    padding-right:15px;
+    padding-left:15px;
+    font-size: 20px;
+	font-weight:bold;
+	color: black;
+}
+.card-text{
+    padding-left:15px;
+    color: black;
+    padding-right:15px;
+}
+.card-link{
+    padding-left:15px;
+    padding-bottom:15px;
+	color:#00BFFF;
+}
+.botao1{
+    text-align: center;
+}
+
+.item2{
+    padding-left: 30px;
+    list-style:none;
+    display: inline-block;
+   
+}
